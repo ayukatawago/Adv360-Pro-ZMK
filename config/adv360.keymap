@@ -21,14 +21,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        Return {
-            bindings = <&kp RET>;
-            key-positions = <70 28>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
